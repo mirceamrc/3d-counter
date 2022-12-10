@@ -1,0 +1,25 @@
+body {
+  background-color: #d0d4d2;
+  color: rgb(0, 0, 0);
+  padding: 40px;
+  font-family: Arial;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.nav {
+  list-style-type: none;
+  width: 500;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
